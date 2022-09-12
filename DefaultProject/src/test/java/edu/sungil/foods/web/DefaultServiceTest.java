@@ -8,9 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import edu.sungil.foods.web.domain.dto.UserInfo;
 import edu.sungil.foods.web.service.DefaultService;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @SpringBootTest
 @Transactional
 public class DefaultServiceTest {
